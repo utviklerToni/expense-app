@@ -1,0 +1,25 @@
+.header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(163, 134, 53);
+}
+
+.header-menu {
+  padding: 9px;
+}
+
+.header-menu a {
+  margin: 0 9px;
+}
+
+.header-menu a,
+a:active,
+a:visited {
+  color: white;
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(180, 0, 0);
+}
